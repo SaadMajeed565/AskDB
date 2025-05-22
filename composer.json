@@ -1,0 +1,21 @@
+{
+    "name": "dotknock/ask-db",
+    "description": "This package will help communicating with Database based on User Prompts with the help of AI",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dotknock\\AskDb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saad Majeed",
+            "email": "saadmajeed.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
