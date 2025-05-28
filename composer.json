@@ -1,9 +1,13 @@
 {
     "name": "dotknock/ask-db",
     "description": "This package will help communicating with Database based on User Prompts with the help of AI",
+    "version": "0.0.1",
     "type": "library",
     "require": {
-        "illuminate/support": "^10.0"
+        "illuminate/support": "^10.0",
+        "openai-php/client": "dev-main",
+        "symfony/http-client": "7.4.x-dev",
+        "nyholm/psr7": "^1.8@dev"
     },
     "license": "MIT",
     "autoload": {
@@ -17,5 +21,10 @@
             "email": "saadmajeed.dev@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
