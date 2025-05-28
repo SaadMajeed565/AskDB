@@ -1,4 +1,4 @@
-# dotknock/ask-db
+# DotKnock/AskDB
 
 **A Laravel package to convert natural language queries into Eloquent queries with AI assistance.**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-`dotknock/ask-db` helps you build natural language interfaces for your Laravel application to query databases securely and dynamically.  
+`DotKnock/AskDB` helps you build natural language interfaces for your Laravel application to query databases securely and dynamically.  
 By defining your Eloquent models and their metadata (fields, types, descriptions), the package leverages OpenAI to translate user text queries into safe, validated Eloquent query code snippets.
 
 ---
